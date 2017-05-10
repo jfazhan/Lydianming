@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:umadsdk="http://schemas.android.com/apk/res/com.LoveBus"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/stuno"
+        android:layout_width="85dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/stuname"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/stuno"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/stuno"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/mac"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/stuname"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/stuname"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#000000" />
+    
+     <TextView
+         android:id="@+id/phone"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/mac"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/mac"
+         android:background="#ffffff"
+         android:gravity="center"
+         android:textColor="#000000" />
+
+</RelativeLayout>

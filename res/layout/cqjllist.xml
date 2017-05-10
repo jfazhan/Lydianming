@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:umadsdk="http://schemas.android.com/apk/res/com.LoveBus"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/xmxh"
+        android:layout_width="130dip"
+        android:layout_height="30dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/wdcs"
+        android:background="#ffffff"
+        android:gravity="center|center_horizontal"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/qjcs"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/wdcs"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/qjcs"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+
+</RelativeLayout>
